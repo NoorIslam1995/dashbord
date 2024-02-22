@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)file:///C:/Users/Noor%20Islam/Downloads/assignment2.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 10;
+      padding: 20;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Main Container */
+    .container {
+      display: flex;
+      min-height: 100vh;
+	  
+    }
+
+    /* Left Sidebar */
+    .sidebar {
+      width: 250px;
+      background-color: #444;
+      color: #fff;
+      padding: 20px;
+    }
+
+
+    /* Top Bar */
+    .topbar{
+      background-color:#808080;
+      color: #fff;
+      padding: 20px;
+      width: 100%;
+    }
+
+    /* Content Area */
+    .content {
+      flex-grow: 1;
+      padding: 20px;
+	  
+    }
+
+    /* Sample Styles */
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+	  
+    }
+
+    .sidebar ul li {
+      margin-bottom: 10px;
+	   background-color:#808080;
+    }
+
+    .sidebar ul li a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+	  font-size:20px;
+	  
+    }
+
+    .sidebar ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sample styles for top bar */
+    .topbar h1 {
+      margin: 0;
+      font-size: 50px;
+    }
+
+    /* Sample styles for content area */
+    .content p {
+      line-height: 1.6;
+    }
+  </style>
+<style>
+#link{color:green}
+#link1{color:red}
+</style></head>
+
+
+<body>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2 style="color:red;">Sidebar</h2>
+      <ul>
+        <li><a id="link" href="https://www.google.com/">Google</a></li>
+        <li><a id="link1" href="https://ostad.app/">Ostad</a></li>
+        <li><a id="link" href="https://www.w3schools.com/">W3school</a></li>
+        <li><a id="link1" href="https://www.cricbuzz.com/">cricbuzz</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="topbar" style="width: 1125px;">
+        <h1 style="color:green; " > Top Bar <img style="width:60px;height:50px;" src="./Dashboard_files/right.jpg"> </h1>	
+      </div>
+      <div class="content">
+        <h2 style="color:blue;">Main Content Area</h2>
+        <p style="color:green;">Bangladesh is a country in Southern Asia located on the Bay of Bengal, 
+		bordered by India on all sides except for a small border with Burma. Bangladesh has flat plains,
+		and most of the country is situated on deltas of large rivers flowing from the Himalayas.
+		</p>
+      </div>
+    </div>
+  </div>
+</body></html>
